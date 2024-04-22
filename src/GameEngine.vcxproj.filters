@@ -1,0 +1,1043 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Application\AssetManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Application\AssetManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Application\AssetManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Application\Scene\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Application\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Application\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Frigate.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User\DemoScene1.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Plane.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Axis.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User\UserEngineFunctions.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneRegistrationBroker.cpp">
+      <Filter>Application\Scene\Scene Registration</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDeregistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateRegistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawRegistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawDeregistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawableManager.cpp">
+      <Filter>Application\GameObject\Object Attributes\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>Application\GameObject\Object Attributes\Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateableManager.cpp">
+      <Filter>Application\GameObject\Object Attributes\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Updateable.cpp">
+      <Filter>Application\GameObject\Object Attributes\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Alarmable.cpp">
+      <Filter>Application\GameObject\Object Attributes\Alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmableManager.cpp">
+      <Filter>Application\GameObject\Object Attributes\Alarm</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmRegistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="AlarmDeregistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Inputable.cpp">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardEventManager.cpp">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleKeyEventManager.cpp">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputRegistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDeregistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectEntryCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectExitCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Application\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="FreezeTime.cpp">
+      <Filter>Application\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="User\ShootingFrigate.cpp">
+      <Filter>User Code\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Bullet.cpp">
+      <Filter>User Code\DemoGame\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User\BulletFactory.cpp">
+      <Filter>User Code\DemoGame\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="User\BulletObjPool.cpp">
+      <Filter>User Code\DemoGame\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneChangeCommand.cpp">
+      <Filter>Application\Scene\Scene Change</Filter>
+    </ClCompile>
+    <ClCompile Include="Collidable.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidableRegistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidableDeregistrationCommand.cpp">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollidableGroup.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTestPairCommand.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Cottage.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTestSelfCommand.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionVolumeBSphere.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision\Collision Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="SMathTools.cpp">
+      <Filter>Application\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="User\TestingScene.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Tank.cpp">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User\TankControllerPlayer.cpp">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User\TankTurret.cpp">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User\TankLeg.cpp">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User\RightLegCommand.cpp">
+      <Filter>User Code\DemoGame\Tank\TankLegCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="User\LeftLegCommand.cpp">
+      <Filter>User Code\DemoGame\Tank\TankLegCommands</Filter>
+    </ClCompile>
+    <ClCompile Include="SESprite.cpp">
+      <Filter>Application\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>Application\AssetManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="User\TestSprite.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Visualizer.cpp">
+      <Filter>Application\Dev Tools\Visualizer</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Player.cpp">
+      <Filter>User Code\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="User\TankControllerAI.cpp">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="User\LevelManager.cpp">
+      <Filter>User Code\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="User\PersuePatrolPattern.cpp">
+      <Filter>User Code\DemoGame\Tank\TankAI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFont.cpp">
+      <Filter>Application\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteString.cpp">
+      <Filter>Application\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFontManager.cpp">
+      <Filter>Application\AssetManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLogger.cpp">
+      <Filter>Application\Dev Tools\DataLogger</Filter>
+    </ClCompile>
+    <ClCompile Include="User\PatrolPatternWaypointLoop.cpp">
+      <Filter>User Code\DemoGame\Tank\TankAI</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Level1Scene.cpp">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User\DemoGameScene.cpp">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User\SkyBox.cpp">
+      <Filter>User Code\DemoGame\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="User\GroundPlane.cpp">
+      <Filter>User Code\DemoGame\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="User\SplashScreenScene.cpp">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User\SplashScreen.cpp">
+      <Filter>User Code\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Hud.cpp">
+      <Filter>User Code\DemoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Level2Scene.cpp">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionVolumeAABB.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision\Collision Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionVolumeOBB.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision\Collision Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualizerDrawCommand.cpp">
+      <Filter>Application\Dev Tools\Visualizer\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapTerrain.cpp">
+      <Filter>Application\Models\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainManager.cpp">
+      <Filter>Application\AssetManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightmapTerrainIterator.cpp">
+      <Filter>Application\Models\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTestTerrainCommand.cpp">
+      <Filter>Application\GameObject\Object Attributes\Collision\Commands</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Application\IKSystem\LinkageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Linkage.cpp">
+      <Filter>Application\IKSystem\LinkageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="User\IKDemoScene1.cpp">
+      <Filter>User Code\IKSystemTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="User\IKTestingObj.cpp">
+      <Filter>User Code\IKSystemTesting</Filter>
+    </ClCompile>
+    <ClCompile Include="InverseKinematics.cpp">
+      <Filter>Application\IKSystem\LinkageSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="User\TestMover.cpp">
+      <Filter>User Code</Filter>
+    </ClCompile>
+    <ClCompile Include="User\IKTank.cpp">
+      <Filter>User Code\DemoGameV2\IKTank</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Demo2Level1Scene.cpp">
+      <Filter>User Code\DemoGameV2\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="User\IKTankController.cpp">
+      <Filter>User Code\DemoGameV2\IKTank\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="User\IKTankControllerPlayer.cpp">
+      <Filter>User Code\DemoGameV2\IKTank\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="User\IKTankControllerAI.cpp">
+      <Filter>User Code\DemoGameV2\IKTank\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="User\Demo2Level2Scene.cpp">
+      <Filter>User Code\DemoGameV2\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_Libs">
+      <UniqueIdentifier>{1392bc0c-ded2-42a7-9ec1-333be4dadedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{aef3393e-06a5-4f08-bf4a-3b6be12d1e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW">
+      <UniqueIdentifier>{d22a518f-dd11-48ea-8247-bd82c5928233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\include">
+      <UniqueIdentifier>{f1613e77-99f1-482b-bccf-12b6784f3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\GLFW\lib">
+      <UniqueIdentifier>{c350b52d-8efa-4eca-a258-d57d45c43245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6">
+      <UniqueIdentifier>{189a2178-2765-49df-b052-8eca24a60d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\lib">
+      <UniqueIdentifier>{841af908-0674-4949-8aa0-292e3e84a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\SB6\include">
+      <UniqueIdentifier>{d2f5d78b-d9cf-4bd9-bd4e-df7522de593c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File">
+      <UniqueIdentifier>{fb44cdb2-f236-4b3b-833e-e9e2c3af59cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\lib">
+      <UniqueIdentifier>{23abe339-ce80-4523-b0f0-23747e3f512f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\File\include">
+      <UniqueIdentifier>{323b20aa-e08c-4260-84b1-1e85121a9e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math">
+      <UniqueIdentifier>{9fcc2c9b-3e4f-4ab2-a0c5-3099cdf90300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\lib">
+      <UniqueIdentifier>{ea7cbe8f-1aeb-4ad2-bd4e-fa300408bd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\Math\include">
+      <UniqueIdentifier>{5d126765-1977-4213-89fb-e004f6468da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore">
+      <UniqueIdentifier>{d3f91089-c7e6-474d-8376-afd372d35a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\lib">
+      <UniqueIdentifier>{8a854cfc-9294-4797-b476-0b2feacdd62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Libs\AzulCore\include">
+      <UniqueIdentifier>{60eabb98-a714-4df4-8fa1-3fb92ea55bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\MemTracker">
+      <UniqueIdentifier>{0831ceec-c270-48b0-8a50-5200ddf7bc60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\AssetManagers">
+      <UniqueIdentifier>{2856bb28-04d5-4b6e-9002-e6204ed99ac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code">
+      <UniqueIdentifier>{fe1e66b1-2082-4cae-a9be-f79b9ad4a912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Scene">
+      <UniqueIdentifier>{b7956c75-3490-4347-be83-feac90453f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject">
+      <UniqueIdentifier>{f7a91544-c6d2-4878-b8d8-447193884294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes">
+      <UniqueIdentifier>{4f07972f-cb19-4452-8723-3bd9461c1364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Scene\Scene Registration">
+      <UniqueIdentifier>{b54a2080-be3a-4c12-a6ff-217d2bdfee94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Scene\Scene Registration\Commands">
+      <UniqueIdentifier>{79a922bb-5159-405e-9219-78440960c80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes\Draw">
+      <UniqueIdentifier>{447eda88-1300-4d1a-9479-defdc743684b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes\Update">
+      <UniqueIdentifier>{c48aa58c-5077-463e-91e0-94670a3ec3db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes\Alarm">
+      <UniqueIdentifier>{4c4d09c1-4fef-433a-a514-ab644645b3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes\Input">
+      <UniqueIdentifier>{629358f2-0804-4f62-979e-2d60a89f8645}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Scene\Camera">
+      <UniqueIdentifier>{9d10a928-850b-42da-b5a5-237946cffa69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Time">
+      <UniqueIdentifier>{6751a525-98bd-44f0-8ff1-3f62e72635bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGame">
+      <UniqueIdentifier>{1dde66f1-a627-42ac-a38e-4d5c909f44a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGame\Bullet">
+      <UniqueIdentifier>{ca6cd93d-f541-4045-91ed-8d856d9cf647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Scene\Scene Change">
+      <UniqueIdentifier>{6c20d71a-5c82-48be-9866-362ee2ce8ed9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes\Collision">
+      <UniqueIdentifier>{42334407-a45e-4a43-921e-9c1a96a9d4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes\Collision\Commands">
+      <UniqueIdentifier>{d263dc7c-0020-46c7-a7d4-c1b4222dd87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\GameObject\Object Attributes\Collision\Collision Shapes">
+      <UniqueIdentifier>{cfb892f0-9e0b-4b2f-bd44-d7b0494dcd48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Dev Tools">
+      <UniqueIdentifier>{a1dc9591-5684-484b-ad31-e03a4657fa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Resources">
+      <UniqueIdentifier>{adf41fc4-f2b3-4ed0-a0d5-518a9eeef1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGame\Tank">
+      <UniqueIdentifier>{9afbdac1-0e50-4e89-9a7e-9882465c9555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGame\Tank\TankLegCommands">
+      <UniqueIdentifier>{571ab84e-fcf6-4f46-a96e-555bb11a3f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Sprites">
+      <UniqueIdentifier>{31659a17-efe6-48cf-8910-85a41b0a5245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Dev Tools\Visualizer">
+      <UniqueIdentifier>{2c8b87f2-3dff-4a72-9d34-6cc7924bfa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Dev Tools\Visualizer\Commands">
+      <UniqueIdentifier>{afa5d7d9-3be9-4405-8a82-e4d988f8f132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGame\Tank\TankAI">
+      <UniqueIdentifier>{1e84727c-eb6f-4e47-ae3d-bbf2277b741b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Dev Tools\DataLogger">
+      <UniqueIdentifier>{845bf9d5-1f34-43f1-a4ff-93c410fec9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGame\Scenes">
+      <UniqueIdentifier>{a42fb2ef-3983-41ec-b11c-423d93ae0af4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGame\Scenery">
+      <UniqueIdentifier>{fd239b1e-d662-4d5c-8503-07043ffe103e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Models">
+      <UniqueIdentifier>{519ef59b-0920-4df3-ad3e-da502601ca41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Models\Terrain">
+      <UniqueIdentifier>{954e22f3-4309-43c4-8d0a-9ae9d41433fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\IKSystemTesting">
+      <UniqueIdentifier>{b244c6cc-3ecb-4d00-9667-10856d7dff74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\IKSystem">
+      <UniqueIdentifier>{f3082cc4-a222-426c-b975-93abe80151e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\IKSystem\LinkageSystem">
+      <UniqueIdentifier>{ead56174-f054-4bb5-8ed6-27a05f8355a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGameV2">
+      <UniqueIdentifier>{672b5994-5fe2-4adb-a66e-41fdc0a59582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGameV2\Scenes">
+      <UniqueIdentifier>{30dc5007-c38c-420e-b2c6-c924011b3839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGameV2\IKTank">
+      <UniqueIdentifier>{03219675-6f59-4459-bb5f-8c4911b7b162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User Code\DemoGameV2\IKTank\Controller">
+      <UniqueIdentifier>{3cd4ed3f-c10e-4435-992a-728eff76506f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\GLFW\include\GL\glfw.h">
+      <Filter>_Libs\GLFW\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\arcball.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\object.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6ktx.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\sb6mfile.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\shader.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\vmath.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\gl3w.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glcorearb.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\glxext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\SB6\include\GL\wglext.h">
+      <Filter>_Libs\SB6\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\File\include\File.h">
+      <Filter>_Libs\File\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Align16.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Constants.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Enum.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathEngine.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Matrix.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Util.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Vect.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulCore.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulFileHdr.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\AzulHelper.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Camera.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\DebugOut.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Engine.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GpuVertTypes.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorByPosition.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTexture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_ColorNoTextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_Sprite.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_SpriteBox.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureFlat.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_TextureLight.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeAutoColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\GraphicsObject_WireframeConstantColor.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Image.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Keyboard.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\LibrarySetup.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Model.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Mouse.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Rect.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ShaderObject.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\Texture.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\TextureTGA.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\MathApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\Quat.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\QuatApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\Math\include\VectApp.h">
+      <Filter>_Libs\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dist\AzulCore\include\ModelTools.h">
+      <Filter>_Libs\AzulCore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Application\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectSettings.h">
+      <Filter>Application\MemTracker</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Application\Scene\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Application\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Frigate.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User\DemoScene1.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Plane.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Axis.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneRegistrationBroker.h">
+      <Filter>Application\Scene\Scene Registration</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawRegistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDeregistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateRegistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistrationStateEnum.h">
+      <Filter>Application\GameObject\Object Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawDeregistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableManager.h">
+      <Filter>Application\GameObject\Object Attributes\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>Application\GameObject\Object Attributes\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateableManager.h">
+      <Filter>Application\GameObject\Object Attributes\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Updateable.h">
+      <Filter>Application\GameObject\Object Attributes\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Alarmable.h">
+      <Filter>Application\GameObject\Object Attributes\Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmableManager.h">
+      <Filter>Application\GameObject\Object Attributes\Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmRegistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmDeregistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Inputable.h">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEventManager.h">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardEvents.h">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleKeyEventManager.h">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputRegistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDeregistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectEntryCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectExitCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Application\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManagerAttorney.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManagerAttorney.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManagerAttorney.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateableAttorney.h">
+      <Filter>Application\GameObject\Object Attributes\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAttorney.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawableAttorney.h">
+      <Filter>Application\GameObject\Object Attributes\Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="AlarmableAttorney.h">
+      <Filter>Application\GameObject\Object Attributes\Alarm</Filter>
+    </ClInclude>
+    <ClInclude Include="InputableAttorney.h">
+      <Filter>Application\GameObject\Object Attributes\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectAttorney.h">
+      <Filter>Application\GameObject\Object Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="FreezeTime.h">
+      <Filter>Application\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManagerAttorney.h">
+      <Filter>Application\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="User\ShootingFrigate.h">
+      <Filter>User Code\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Bullet.h">
+      <Filter>User Code\DemoGame\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="User\BulletFactory.h">
+      <Filter>User Code\DemoGame\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="User\BulletObjPool.h">
+      <Filter>User Code\DemoGame\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeCommandBase.h">
+      <Filter>Application\Scene\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeNullCommand.h">
+      <Filter>Application\Scene\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneChangeCommand.h">
+      <Filter>Application\Scene\Scene Change</Filter>
+    </ClInclude>
+    <ClInclude Include="NullScene.h">
+      <Filter>Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneAttorney.h">
+      <Filter>Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManagerAttorney.h">
+      <Filter>Application\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Collidable.h">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableRegistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableDeregistrationCommand.h">
+      <Filter>Application\Scene\Scene Registration\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableAttorney.h">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollidableGroup.h">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTestCommandBase.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTestPairCommand.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTestSelfCommand.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDispatchBase.h">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDispatch.h">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Cottage.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionVolume.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Collision Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionVolumeBSphere.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Collision Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Application\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SMathTools.h">
+      <Filter>Application\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TestingScene.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Tank.h">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TankControllerBaseClass.h">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TankControllerPlayer.h">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TankTurret.h">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TankLeg.h">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TankLegCommandBase.h">
+      <Filter>User Code\DemoGame\Tank\TankLegCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="User\RightLegCommand.h">
+      <Filter>User Code\DemoGame\Tank\TankLegCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="User\LeftLegCommand.h">
+      <Filter>User Code\DemoGame\Tank\TankLegCommands</Filter>
+    </ClInclude>
+    <ClInclude Include="SESpirte.h">
+      <Filter>Application\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManagerAttorney.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TestSprite.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Visualizer.h">
+      <Filter>Application\Dev Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualizerAttorney.h">
+      <Filter>Application\Dev Tools\Visualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Player.h">
+      <Filter>User Code\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TankControllerAI.h">
+      <Filter>User Code\DemoGame\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="User\PatrolPatternBase.h">
+      <Filter>User Code\DemoGame\Tank\TankAI</Filter>
+    </ClInclude>
+    <ClInclude Include="User\LevelManager.h">
+      <Filter>User Code\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="User\PersuePatrolPattern.h">
+      <Filter>User Code\DemoGame\Tank\TankAI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFont.h">
+      <Filter>Application\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteString.h">
+      <Filter>Application\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFontManager.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFontManagerAttorney.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLogger.h">
+      <Filter>Application\Dev Tools\DataLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="DataLoggerAttorney.h">
+      <Filter>Application\Dev Tools\DataLogger</Filter>
+    </ClInclude>
+    <ClInclude Include="User\PatrolPatternWaypointLoop.h">
+      <Filter>User Code\DemoGame\Tank\TankAI</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Level1Scene.h">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User\DemoGameScene.h">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User\SkyBox.h">
+      <Filter>User Code\DemoGame\Scenery</Filter>
+    </ClInclude>
+    <ClInclude Include="User\GroundPlane.h">
+      <Filter>User Code\DemoGame\Scenery</Filter>
+    </ClInclude>
+    <ClInclude Include="User\SplashScreenScene.h">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User\SplashScreen.h">
+      <Filter>User Code\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Hud.h">
+      <Filter>User Code\DemoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Level2Scene.h">
+      <Filter>User Code\DemoGame\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionVolumeAABB.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Collision Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionVolumeOBB.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Collision Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualizerDrawCommand.h">
+      <Filter>Application\Dev Tools\Visualizer\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightmapTerrain.h">
+      <Filter>Application\Models\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainManager.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainManagerAttorney.h">
+      <Filter>Application\AssetManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightmapTerrainIterator.h">
+      <Filter>Application\Models\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTestTerrainCommand.h">
+      <Filter>Application\GameObject\Object Attributes\Collision\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDispatchSingle.h">
+      <Filter>Application\GameObject\Object Attributes\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Application\IKSystem\LinkageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Linkage.h">
+      <Filter>Application\IKSystem\LinkageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="User\IKDemoScene1.h">
+      <Filter>User Code\IKSystemTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="User\IKTestingObj.h">
+      <Filter>User Code\IKSystemTesting</Filter>
+    </ClInclude>
+    <ClInclude Include="InverseKinematics.h">
+      <Filter>Application\IKSystem\LinkageSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="User\TestMover.h">
+      <Filter>User Code</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Demo2Level1Scene.h">
+      <Filter>User Code\DemoGameV2\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="User\IKTank.h">
+      <Filter>User Code\DemoGameV2\IKTank</Filter>
+    </ClInclude>
+    <ClInclude Include="User\IKTankController.h">
+      <Filter>User Code\DemoGameV2\IKTank\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="User\IKTankControllerPlayer.h">
+      <Filter>User Code\DemoGameV2\IKTank\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="User\IKTankControllerAI.h">
+      <Filter>User Code\DemoGameV2\IKTank\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="User\Demo2Level2Scene.h">
+      <Filter>User Code\DemoGameV2\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\dist\GLFW\lib\GLFW_Debug.lib">
+      <Filter>_Libs\GLFW\lib</Filter>
+    </Library>
+    <Library Include="..\dist\SB6\lib\sb6_Debug.lib">
+      <Filter>_Libs\SB6\lib</Filter>
+    </Library>
+    <Library Include="..\dist\File\lib\File_Debug.lib">
+      <Filter>_Libs\File\lib</Filter>
+    </Library>
+    <Library Include="..\dist\Math\lib\MathEngine_Debug.lib">
+      <Filter>_Libs\Math\lib</Filter>
+    </Library>
+    <Library Include="..\dist\AzulCore\lib\AzulCore_Debug.lib">
+      <Filter>_Libs\AzulCore\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
